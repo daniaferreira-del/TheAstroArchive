@@ -1,0 +1,207 @@
+body{
+  background:#f5f1ea;
+  margin:0;
+  font-family:Georgia, serif;
+  color:#111;
+}
+
+/* NAVBAR */
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width: 90%;
+  margin: 0 auto;
+  padding:12px 0;
+}
+
+.nav-line{
+  width: 90%;
+  margin: 0 auto;
+  border-bottom:1px solid #cfc6bc;
+}
+
+nav ul{
+  display:flex;
+  gap:30px;
+  list-style:none;
+}
+
+/* HERO */
+
+.hero{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 60px 20px 60px;
+  min-height: 45vh;
+}
+
+.hero-text h1{
+  font-size:100px;
+  line-height:0.9;
+  margin:0;
+}
+
+.hero-text p{
+  font-size:22px;
+  margin-top:20px;
+}
+
+.hero-text em{
+  display:block;
+  margin-top:25px;
+}
+
+.hero-image img{
+  height: 500px;
+  transform: translateY(20px);
+}
+
+button{
+  margin-top:15px;
+
+  background:black;
+  color:white;
+
+  border:none;
+
+  padding:15px 30px;
+
+  cursor:pointer;
+}
+
+
+.rocket-section{
+
+    width:90%;
+
+    margin:15px auto 0 auto;
+
+    border-top:1px solid #cfc6bc;
+
+    padding-top:20px;
+
+}
+
+.section-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin: bottom 70px;
+
+}
+
+
+/* GRID */
+
+.rocket-line{
+
+    display:flex;
+    justify-content:center;
+    gap: 120px;
+    align-items:flex-end;
+    margin-top: 50px;
+
+}
+.rocket{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.rocket img{
+  max-height: 280px;
+  width:auto;
+  object-fit: contain;
+}
+
+.rocket h3{
+ text-align:center;
+ font-size:13px;
+ letter-spacing:1px;
+ margin-top:12px;
+ line-height:1.3;
+   min-height:60px;
+}
+
+.rocket-link{
+    text-decoration:none;
+    color:inherit;
+}
+
+
+.articles{
+
+    display:grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap:2px;
+
+    margin-top:80px;
+
+}
+
+.rocket-link{
+    text-decoration:none;
+    color:inherit;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.rocket-link:visited{
+    color:inherit;
+}
+
+.rocket-link:hover{
+    color:inherit;
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+.tile{
+
+    min-height:300px;
+
+    padding:30px;
+
+    position:relative;
+
+}
+
+.dark{
+
+    background:#0e0e0e;
+    color:white;
+
+}
+
+.blue{
+
+    background:#8da2b5;
+}
+
+.green{
+
+    background:#b8b07a;
+}
+
+.beige{
+
+    background:#efe8df;
+}
