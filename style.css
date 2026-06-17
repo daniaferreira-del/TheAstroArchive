@@ -205,3 +205,37 @@ a{
 
     background:#efe8df;
 }
+
+.rocket-hero{
+    position:relative;
+
+    height:700px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    overflow:hidden;
+}
+
+.bg-title{
+    position:absolute;
+
+    font-size:220px;
+
+    color:#e6e0d7;
+
+    z-index:1;
+
+    white-space:nowrap;
+
+    font-weight:bold;
+}
+
+.rocket-hero img{
+    height:550px;
+
+    position:relative;
+
+    z-index:2;
+}
